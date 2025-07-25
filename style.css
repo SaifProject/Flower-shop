@@ -292,7 +292,7 @@ border-radius: 5px;
 
 /* Subscribe Section */
 .subscribe {
-background: url('../assets/news-letter-bg.png') no-repeat center center/cover;
+background: url('./assets/news-letter-bg.png') no-repeat center center/cover;
 padding: 60px 20px;
 color: white;
 text-align: center;
