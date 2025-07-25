@@ -59,6 +59,7 @@ width: 24px;
 /* ========== HERO SECTION ========== */
 .hero {
 display: flex;
+flex-direction: row-reverse;
 flex-wrap: wrap;
 justify-content: center;
 align-items: center;
@@ -441,11 +442,6 @@ list-style-position: inside;
 padding-left: 0;
 }
 
-.badge {
-display: none;
-}
-
-
 .footer-container {
 flex-direction: column;
 align-items: center;
@@ -464,7 +460,14 @@ justify-content: center;
 .navbar {
 padding: 20px 40px;
 }
+
 .product-grid {
 grid-template-columns: repeat(2, 1fr);
 }
+
 }
+@media (max-width: 960px) {
+.badge {
+display: none;
+}
+  }
